@@ -1,0 +1,164 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic&subset=latin,cyrillic);
+
+@font-face {
+	font-family: 'museo_sans_cyrl100';
+	src: url('../fonts/museosanscyrl_100-webfont.eot');
+	src: url('../fonts/museosanscyrl_100-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/museosanscyrl_100-webfont.woff2') format('woff2'),
+		url('../fonts/museosanscyrl_100-webfont.woff') format('woff'),
+		url('../fonts/museosanscyrl_100-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans_cyrl300';
+    src: url('../fonts/museosanscyrl_300-webfont.eot');
+    src: url('../fonts/museosanscyrl_300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museosanscyrl_300-webfont.woff2') format('woff2'),
+         url('../fonts/museosanscyrl_300-webfont.woff') format('woff'),
+         url('../fonts/museosanscyrl_300-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans_cyrl500';
+    src: url('../fonts/museosanscyrl_500-webfont.eot');
+    src: url('../fonts/museosanscyrl_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museosanscyrl_500-webfont.woff2') format('woff2'),
+         url('../fonts/museosanscyrl_500-webfont.woff') format('woff'),
+         url('../fonts/museosanscyrl_500-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans_cyrl700';
+    src: url('../fonts/museosanscyrl_700-webfont.eot');
+    src: url('../fonts/museosanscyrl_700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/museosanscyrl_700-webfont.woff2') format('woff2'),
+         url('../fonts/museosanscyrl_700-webfont.woff') format('woff'),
+         url('../fonts/museosanscyrl_700-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {font-family: 'ALS Rubl';font-style: normal;font-weight: normal;src: local('ALS Rubl'), url('../fonts/rouble.woff') format('woff');}
+body {font-family: 'museo_sans_cyrl300';font-size: 14px;color: #000000;}
+.rub {font-family: 'ALS Rubl';font-weight: normal;text-transform: none;}
+a, .btn {-webkit-transition: all 0.125s ease-in-out 0s;-moz-transition: all 0.125s ease-in-out 0s;-ms-transition: all 0.125s ease-in-out 0s;-o-transition: all 0.125s ease-in-out 0s;transition: all 0.125s ease-in-out 0s;}
+a:focus, .btn:focus {outline: none!important;}
+.text-bold {font-weight: 700;font-family: 'museo_sans_cyrl700';}
+.f12 {font-size: 12px;}
+.f14 {font-size: 14px;line-height: 18px;}
+.f16 {font-size: 16px;}
+.f18 {font-size: 18px;}
+.f22 {font-size: 22px;}
+.h1, h1 {font-size: 48px;margin-bottom: 60px;}
+.h2, h2 {font-size: 30px;margin-top: 25px;margin-bottom: 25px;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'Roboto Slab', serif;font-weight: 700;}
+h1, ul, h3, .graybgfaq1 h4 {text-shadow: -1px 1px 1px rgb(0, 0, 0);}
+.text-success {color: #254c03;}
+.font-slab {font-family: 'Roboto Slab', serif;font-weight: 700;}
+/*Главная*/
+.intro {background: url('../images/bg/intro.jpg') no-repeat top center;background-size: cover;min-height: 680px;padding-bottom: 40px;color: #fff;}
+.intro  .introhead {margin: 30px 0 0px;}
+.intro .introhead .phone {font-size: 36px;font-family: 'museo_sans_cyrl700';margin-bottom: 0px;line-height: 40px;}
+.intro .introhead .phone a {color: #fff;text-decoration: none;text-shadow: -1px 1px 1px rgb(0, 0, 0);}
+.intro .introhead .phone a:hover {color: #fff;text-decoration: none;}
+.intro .introhead .adress {font-size: 12px;}
+.intro .list-checked li {padding-bottom: 10px;padding-left: 35px;position: relative;}
+.intro .list-checked li:before {content: '';width: 25px;height: 25px;background: url('../images/icons/check.png') no-repeat center center;position: absolute;left: 0;display: block;}
+/*Меню*/
+.affix {position: fixed;top: 0;z-index: 1020;width: 100%;
+-webkit-transition: all 0.125s ease-in-out 0s;
+-moz-transition: all 0.125s ease-in-out 0s;
+-ms-transition: all 0.125s ease-in-out 0s;
+-o-transition: all 0.125s ease-in-out 0s;
+transition: all 0.125s ease-in-out 0s;
+}
+/*содержимое*/
+.graybgfaq1{background: url('../images/bg/kalyan.jpg') no-repeat center center;background-size: cover;padding-bottom: 40px;color: #fff;}
+.graybgfaq1 h3{margin-top:0px;}
+.graybgfaq {background: url('../images/bg/smoke.jpg') no-repeat center center;background-size: cover;padding-bottom: 40px;min-height:680px;}
+.graybg {background: url('../images/bg/onas.png') no-repeat center center;background-size: cover;}
+.graybg1 {background: url('../images/bg/dim.jpg') no-repeat center center;background-size: cover; color:white;}
+
+.panel-success {border-color: #4FA800;}
+.panel-success>.panel-heading {color: #fff;background-color: #4fa800;border-color: #4fa800;}
+.panel-body {padding: 30px;color: #000000;}
+.panel {-webkit-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.6);box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.6);}
+.form-control {height: 46px;font-family: 'Roboto', sans-serif;font-style: italic;border-radius: 2px;}
+.btn {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+text-transform: uppercase;
+font-weight: 700;
+padding: 15px 40px;
+-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.14);
+-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.14);
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.14);
+border-width: 0 0 4px;
+height: 56px;
+}
+
+/*Картинки*/
+#id_3 img, .graybgfaq1 img{margin-right: 20px !important;}
+#id_3 img {float:left;margin:5px;}
+
+.btn:hover, .btn:focus  {border-width: 0 0 2px;}
+.btn-danger {color: #fff;background-color: #ef0b0f;border-color: #D02525;text-shadow: 1px 1px 0 rgb(43, 4, 4);}
+.btn-danger:hover, .btn-danger:focus {color: #fff;background-color: #EC282B;border-color: #D02525;text-shadow: 1px 1px 0 rgb(43, 4, 4);}
+.btn-warning {color: #fff;background-color: #ff970d;border-color: #de6421;text-shadow: 1px 1px 0 rgb(138, 89, 18);}
+.btn-success {color: #fff;background-color: #4fa800;border-color: #356D04;text-shadow: 1px 1px 0 rgb(53, 109, 4);}
+.panel-map {width: 370px;float: right;margin-top: -580px;z-index: 999;position: relative;margin-right: -10px;}
+.panel-map p img {display: block;margin: 0 auto;margin-bottom: 5px}
+
+.section {padding: 50px 0 50px;}
+.headsection {padding: 40px 0 40px;background: #4fa800;color: #fff;}
+.sectionservices {background: url('../images/bg/pattern.png') center center;padding: 60px 0 20px;}
+.mapwidget  iframe {width: 100%;}
+.footer {background: #000;color: #fff;padding: 40px 0 10px;}
+.footer a {color: #fff;text-decoration: underline;}
+.img-thumbnail {padding: 0px;}
+.close {float: right;position: absolute;font-size: 21px;font-weight: 700;line-height: 1;color: #000;text-shadow: 0 1px 0 #fff;filter: alpha(opacity=20);opacity: .2;right: 0;margin-right: 20px;}
+.m-0 {margin: 0px!important;}
+.m-t-0 {margin-top: 0px!important;}
+.m-t-10 {margin-top: 10px!important;}
+.m-t-30 {margin-top: 30px!important;}
+.m-t-50 {margin-top: 50px!important;}
+.m-t-70 {margin-top: 40px!important;}
+.mt-t--5 {margin-top: -5px!important;}
+.m-b-5 {margin-bottom: 5px!important;}
+.m-b-20 {margin-bottom: 20px!important;}
+.m-b-40 {margin-bottom: 40px!important;}
+.form-group-25 {margin-bottom: 25px!important;}
+.p-b-0 {padding-bottom: 0px!important;}
+.padding-20 {padding: 20px!important;}
+.modal-dialog {position: fixed;right: 0;top: 0;width: 500px;margin: 0px;height: 100%;}
+.modal-content {height: 100%;border: 1px solid #fff;border-radius: 0px;}	
+
+#vk_groups {margin: 0 auto;}
+.modal .modal-body {max-height:100%;overflow-y:auto;}
+
+@media (max-width: 768px) {	
+#id_3 img {float: none;}
+h1{font-size: 36px;}
+body{text-align: center!important;}
+.brandlogo {margin: 0 auto;float: none;}
+.text-right {text-align: center!important;}
+.text-left {text-align: center!important;}
+.intro {background-size: cover;}
+.intro .introhead .phone {font-size: 24px;margin-bottom: 5px;line-height: 30px;}
+.woman-img {display: none;}
+.p-b-0 {padding-bottom: 80px!important;}
+.panel-map {margin-right: 0px;display: none;margin: 0;height: 0;width: 0;}
+.modal-dialog {width: 100%;}
+.mapwidget {display:none !important;}
+.col-md-offset-custom {margin-left:0%;}  
+.grpelem{text-align:left;}
+}
+
+button.close:focus {outline: 0!important;}
+.modal-body {position:relative;padding:30px;}
+.modal-open {overflow: visible;}
+.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom {padding-right:0px!important;}
+audio, canvas, progress, video {display: block;}
