@@ -22,7 +22,7 @@ $CONFIG = array(
 	'imgRandom' => true,
 
 	// How many pictures widget will get from Instagram?
-	'imgCount' => 12,
+	'imgCount' => 1,
 
 	// Cache expiration time (hours)
 	'cacheExpiration' => 6,
